@@ -55,7 +55,7 @@ lodged into a stump, a wand growing as part of a tree, and a rubber ducky with s
         if weapon.lower() == "ducky" and ducky_try == True:
             slowprint("YOU WERE ALREADY DEEMED UNWORTHY LEAVE HIM BE!!!")
 
-        elif "sw" in weapon.lower() and pl.player.health < 3:
+        elif "sw" in weapon.lower() and pl.player.health < 5:
             sw_choice = input("Are you sure? It feels like it was sucking the life out of you.\n")
             if "y" in sw_choice:
                 swordWorth = random.randint(1,6)

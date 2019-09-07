@@ -22,18 +22,18 @@ def intro():
         brodah = True
 
 
-    # else:
-    #     slowprint("Alrighty! ")
-    #     print(name)
-
     else:
-        slowprint("Sorry, either you didn't take this seriously enough or you're not brodah")
-        slowprint("Soooooo yeah, see ya ...")
-        time.sleep(2)
-        game_over()
-        slowprint("You weren't cool enough to play yo")
-        time.sleep(2)
-        sys.exit()
+        slowprint("Alrighty! ")
+        print(name)
+
+    # else:
+    #     slowprint("Sorry, either you didn't take this seriously enough or you're not brodah")
+    #     slowprint("Soooooo yeah, see ya ...")
+    #     time.sleep(2)
+    #     game_over()
+    #     slowprint("You weren't cool enough to play yo")
+    #     time.sleep(2)
+    #     sys.exit()
 
     adv = input("Are you ready for an adventure? : ")
     if "y" in adv.lower():

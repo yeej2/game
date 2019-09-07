@@ -17,6 +17,7 @@ def slowprint(s):
 
 
 def chtwo():
+    pf.player_flag.pig_heal = False
     pf.player_flag.hiding = False
     pf.player_flag.bridge = False
     pf.player_flag.meet_pig = False
